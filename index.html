@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Under Development</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ff4757;
+    }
+    p {
+      font-size: 1.3rem;
+      color: #aaa;
+    }
+    .glow {
+      animation: glow 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #ff4757, 0 0 10px #ff6b81;
+      }
+      to {
+        text-shadow: 0 0 15px #ff4757, 0 0 25px #ff6b81;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glow"> Site Under Development </h1>
+  <p>We’re building something epic. Hang tight.</p>
+</body>
+</html>
